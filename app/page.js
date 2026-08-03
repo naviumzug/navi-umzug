@@ -41,35 +41,35 @@ export default function Home() {
 
     <section id="leistungen" className="section">
       <p className="eyebrow gold">Leistungen</p><h2>Alles rund um Umzug & Entrümpelung</h2>
-      <div className="grid services">{services.map(([t,d]) => <article className="card" key={t}><div className="icon">◆</div><h3>{t}</h3><p>{d}</p><a href="#kontakt">Anfragen →</a></article>)}</div>
+      <div className="grid services">{services.map(([t,d]) => <article className="card" key={t}><div className="icon">◆</div><h3>{t}</h3><p>{d}</p><a href="#kontakt">Anfragen →</a></article>)}[...]
     </section>
 
     <section id="ueber-uns" className="section split darkPanel">
-      <div><p className="eyebrow gold">Über uns</p><h2>Ihr zuverlässiges Team in Hamburg</h2><p>Navi Umzug steht für Zuverlässigkeit, Transparenz und sorgfältige Arbeit. Unser Team begleitet Ihren Auftrag von der ersten Anfrage bis zur besenreinen Übergabe.</p><ul><li>Erfahrenes und eingespieltes Team</li><li>Sorgfältiger Umgang mit Ihrem Eigentum</li><li>Direkte Erreichbarkeit per Telefon und WhatsApp</li><li>Hamburg und Umgebung</li></ul></div>
+      <div><p className="eyebrow gold">Über uns</p><h2>Ihr zuverlässiges Team in Hamburg</h2><p>Navi Umzug steht für Zuverlässigkeit, Transparenz und sorgfältige Arbeit. Unser Team begleitet [...]
       <Image src="/images/team-lkw.jpeg" alt="Navi Umzug Team im LKW" width={900} height={1100} className="rounded" />
     </section>
 
     <section id="ablauf" className="section">
       <p className="eyebrow gold">Ablauf</p><h2>In vier Schritten zum fertigen Auftrag</h2>
-      <div className="grid steps">{[['01','Anfrage stellen','Rufen Sie an, schreiben Sie per WhatsApp oder nutzen Sie das Formular.'],['02','Besichtigung','Wir besprechen den Aufwand und besichtigen den Auftrag nach Vereinbarung.'],['03','Angebot','Sie erhalten ein transparentes Angebot.'],['04','Durchführung','Unser Team erledigt den Auftrag zuverlässig und termingerecht.']].map(([n,t,d])=><article className="step" key={n}><strong>{n}</strong><h3>{t}</h3><p>{d}</p></article>)}</div>
+      <div className="grid steps">{[['01','Anfrage stellen','Rufen Sie an, schreiben Sie per WhatsApp oder nutzen Sie das Formular.'],['02','Besichtigung','Wir besprechen den Aufwand und besichtig[...]
     </section>
 
     <section className="section gallery">
       <p className="eyebrow gold">Echte Projekte</p><h2>Vorher & Nachher</h2><p className="lead">Einblicke in echte Entrümpelungsarbeiten aus unserem Alltag.</p>
-      <div className="grid beforeAfter">{[['/images/vorher-nachher-dachboden.jpeg','Dachboden'],['/images/vorher-nachher-wohnzimmer.jpeg','Wohnzimmer'],['/images/vorher-nachher-flur.jpeg','Flur']].map(([src,alt])=><Image key={src} src={src} alt={`Vorher-Nachher Entrümpelung ${alt}`} width={900} height={1200} className="rounded" />)}</div>
+      <div className="grid beforeAfter">{[['/images/vorher-nachher-dachboden.jpeg','Dachboden'],['/images/vorher-nachher-wohnzimmer.jpeg','Wohnzimmer'],['/images/vorher-nachher-flur.jpeg','Flur']][...]
     </section>
 
     <section className="section reviews">
       <p className="eyebrow gold">Bewertungen</p><h2>Das sagen unsere Kunden</h2>
-      <div className="reviewBox"><div className="stars">★★★★★</div><p>Unsere aktuellen Google-Bewertungen finden Sie direkt in unserem Unternehmensprofil.</p><a className="btn" href={reviewUrl} target="_blank">Google-Bewertungen ansehen</a></div>
+      <div className="reviewBox"><div className="stars">★★★★★</div><p>Unsere aktuellen Google-Bewertungen finden Sie direkt in unserem Unternehmensprofil.</p><a className="btn" href={rev[...]
     </section>
 
     <section id="kontakt" className="section contact">
       <div><p className="eyebrow gold">Kontakt</p><h2>Jetzt kostenlos anfragen</h2><p>Wir sind Montag bis Sonntag rund um die Uhr erreichbar.</p>
-        <div className="contactList"><a href={`tel:${phone}`}>Festnetz: 040 84609605</a><a href={`tel:${mobile}`}>Mobil: 0155 65635650</a><a href={`https://wa.me/${whatsapp}`} target="_blank">WhatsApp-Nachricht senden</a><a href="mailto:info@naviumzug.com">info@naviumzug.com</a><span>Karl-Rüther-Stieg 7, 21035 Hamburg</span></div>
+        <div className="contactList"><a href={`tel:${phone}`}>Festnetz: 040 84609605</a><a href={`tel:${mobile}`}>Mobil: 0155 65635650</a><a href={`https://wa.me/${whatsapp}`} target="_blank">What[...]
       </div>
       <form action="mailto:info@naviumzug.com" method="post" encType="text/plain" className="form">
-        <label>Name<input name="Name" required /></label><label>Telefon<input name="Telefon" required /></label><label>E-Mail<input type="email" name="E-Mail" /></label><label>Leistung<select name="Leistung"><option>Umzug</option><option>Entrümpelung</option><option>Haushaltsauflösung</option><option>Möbelmontage</option><option>Transport</option><option>Renovierung</option></select></label><label>Nachricht<textarea name="Nachricht" rows="5" /></label><button className="btn" type="submit">Anfrage senden</button>
+        <label>Name<input name="Name" required /></label><label>Telefon<input name="Telefon" required /></label><label>E-Mail<input type="email" name="E-Mail" /></label><label>Leistung<select name[...]
       </form>
     </section>
 
@@ -78,11 +78,8 @@ export default function Home() {
     <footer className="footer">
       <Image src="/images/logo.png" alt="Navi Umzug" width={240} height={80} />
       <div><strong>Navi Umzug</strong><br/>Inhaber: Asif Asif<br/>Karl-Rüther-Stieg 7 · 21035 Hamburg</div>
-      <div><a href="#impressum">Impressum</a><a href="#datenschutz">Datenschutz</a></div>
+      <div><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a></div>
     </footer>
-
-    <section id="impressum" className="legal"><h2>Impressum</h2><p><strong>Angaben gemäß § 5 DDG</strong></p><p>Navi Umzug<br/>Inhaber: Asif Asif<br/>Karl-Rüther-Stieg 7<br/>21035 Hamburg<br/>Deutschland</p><p>Telefon: 0155 65635650<br/>E-Mail: info@naviumzug.com<br/>Website: www.naviumzug.de</p><p>Eine Umsatzsteuer-Identifikationsnummer wird nur ergänzt, wenn tatsächlich eine vorhanden ist.</p></section>
-    <section id="datenschutz" className="legal"><h2>Datenschutzerklärung</h2><p>Diese Website verarbeitet technisch notwendige Daten beim Aufruf der Seiten. Beim Anklicken externer Dienste wie Google Maps, WhatsApp oder Google-Bewertungen gelten zusätzlich die Datenschutzbestimmungen der jeweiligen Anbieter. Angaben aus dem Kontaktformular werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.</p><p><strong>Hinweis:</strong> Dieser Text ist ein einfacher Entwurf und sollte vor Veröffentlichung rechtlich geprüft und an die tatsächlich eingesetzten Dienste, Hosting-Einstellungen und Tracking-Werkzeuge angepasst werden.</p></section>
 
     <div className="floating"><a href={`tel:${mobile}`} aria-label="Anrufen">☎</a><a href={`https://wa.me/${whatsapp}`} target="_blank" aria-label="WhatsApp">WA</a></div>
   </main>
