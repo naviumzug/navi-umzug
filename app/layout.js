@@ -1,14 +1,6 @@
 import './globals.css';
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18068033913">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+import Script from 'next/script';
 
-  gtag('config', 'AW-18068033913');
-</script>
 export const metadata = {
   title: 'Navi Umzug | Umzug & Entrümpelung in Hamburg',
   description: 'Navi Umzug: Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage und Transporte in Hamburg und Umgebung.',
@@ -23,12 +15,23 @@ export const metadata = {
   }
 };
 
-  gtag('config', 'AW-18068033913');
-</script>
-
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18068033913"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18068033913');
+          `}
+        </Script>
+      </head>
       <body>{children}</body>
     </html>
   );
