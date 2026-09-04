@@ -1,5 +1,14 @@
 import './globals.css';
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18068033913">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-18068033913');
+</script>
 export const metadata = {
   title: 'Navi Umzug | Umzug & Entrümpelung in Hamburg',
   description: 'Navi Umzug: Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage und Transporte in Hamburg und Umgebung.',
