@@ -54,8 +54,10 @@ export default function ContactForm() {
         }
       }
 
-      // Optionally redirect to a thank-you page instead of inline message:
-      // window.location.href = "/danke";
+      // Redirect to dedicated HTTPS thank-you page
+      if (typeof window !== "undefined") {
+        window.location.href = "/danke";
+      }
     } catch (err) {
       console.error(err);
       setStatus("error");
@@ -103,7 +105,7 @@ export default function ContactForm() {
 
       {status === "success" && (
         <div className="success" role="status">
-          Vielen Dank — Ihre Nachricht wurde gesendet.
+          Vielen Dank — Ihre Nachricht wurde gesendet. Weiterleitung…
         </div>
       )}
       {status === "error" && (
