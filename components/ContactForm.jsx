@@ -28,8 +28,19 @@ export default function ContactForm() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-      const data = await res.json();
+
+      // Robust parsing: accept only JSON; otherwise read text and surface helpful message
+      const contentType = (res.headers.get("content-type") || "").toLowerCase();
+      let data = null;
+      if (contentType.includes("application/json")) {
+        data = await res.json();
+      } else {
+        const text = await res.text();
+        throw new Error(`Ungültige Server-Antwort (${res.status}): ${text.slice(0, 1000)}`);
+      }
+
       if (!res.ok) throw new Error(data?.error || `Server antwortete mit ${res.status}`);
+
       setStatus("success");
 
       // Trigger Google Ads conversion only after successful send
