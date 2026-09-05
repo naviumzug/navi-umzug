@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ContactForm from '../components/ContactForm';
 
 const phone = '04084609605';
 const mobile = '015565635650';
@@ -158,36 +159,7 @@ export default function Home() {
           </div>
         </div>
 
-        <form action="mailto:info@naviumzug.com" method="post" encType="text/plain" className="form">
-          <label>
-            Name
-            <input name="Name" required />
-          </label>
-          <label>
-            Telefon
-            <input name="Telefon" required />
-          </label>
-          <label>
-            E-Mail
-            <input type="email" name="E-Mail" />
-          </label>
-          <label>
-            Leistung
-            <select name="Leistung">
-              <option>Umzüge</option>
-              <option>Entrümpelungen</option>
-              <option>Haushaltsauflösungen</option>
-              <option>Möbelmontage</option>
-              <option>Transport & Abholung</option>
-              <option>Renovierung</option>
-            </select>
-          </label>
-          <label>
-            Nachricht
-            <textarea name="Nachricht" />
-          </label>
-          <button className="btn" type="submit">Senden</button>
-        </form>
+        <ContactForm />
       </section>
 
       <section className="map">
