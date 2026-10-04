@@ -2,14 +2,14 @@ import './globals.css';
 import Script from 'next/script';
 
 export const metadata = {
-  title: 'Navi Umzug | Umzug & Entrümpelung in Hamburg',
-  description: 'Navi Umzug: Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage und Transporte in Hamburg und Umgebung.',
+  title: 'Navi Umzug und Entrümpelungsservice X ASF Renovierung | Hamburg',
+  description: 'Navi Umzug und Entrümpelungsservice X ASF Renovierung: Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage, Transporte und Renovierungsarbeiten in Hamburg und Umgebung.',
   metadataBase: new URL('https://www.naviumzug.de'),
   openGraph: {
-    title: 'Navi Umzug & Entrümpelung',
+    title: 'Navi Umzug und Entrümpelungsservice X ASF Renovierung',
     description: 'Zuverlässig, transparent und rund um die Uhr erreichbar in Hamburg.',
     url: 'https://www.naviumzug.de',
-    siteName: 'Navi Umzug',
+    siteName: 'Navi Umzug und Entrümpelungsservice X ASF Renovierung',
     locale: 'de_DE',
     type: 'website'
   }
