@@ -62,9 +62,9 @@ export default function Home() {
         <div className="heroContent">
           <p className="eyebrow">Willkommen bei Navi Umzug und Entrümpelungsservice X ASF Renovierung</p>
           <h1>
-            Umzug & Entrümpelung
+            Navi Umzug und Entrümpelungsservice
             <br />
-            <span>zuverlässig aus einer Hand.</span>
+            <span>X ASF Renovierung – alles aus einer Hand.</span>
           </h1>
           <p>
             Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage, Transporte und Renovierungsarbeiten – transparent,
