@@ -32,7 +32,7 @@ function Header() {
   return (
     <header className="header">
       <a href="#start" className="brand">
-        <Image src="/images/logo.png" alt="Navi Umzug Logo" width={300} height={90} priority />
+        <Image src="/images/logo.png" alt="Navi Umzug und Entrümpelungsservice X ASF Renovierung" width={320} height={85} priority />
       </a>
       <nav>
         <a href="#leistungen">Leistungen</a>
@@ -75,15 +75,15 @@ export default function Home() {
             <a className="btn ghost" href={`https://wa.me/${whatsapp}`} target="_blank" rel="noreferrer">WhatsApp schreiben</a>
           </div>
           <div className="trust">
-            <span>✓ Kostenlose Besichtigung</span>
-            <span>✓ Faire Angebote</span>
-            <span>✓ Kurzfristige Termine</span>
+            <span>Kostenlose Besichtigung</span>
+            <span>Faire Angebote</span>
+            <span>Kurzfristige Termine</span>
           </div>
         </div>
       </section>
 
       <section id="leistungen" className="section">
-        <p className="eyebrow gold">Leistungen</p>
+        <p className="eyebrow">Leistungen</p>
         <h2>Alles rund um Umzug & Entrümpelung</h2>
         <div className="grid services">
           {services.map(([t, d]) => (
@@ -110,7 +110,7 @@ export default function Home() {
       </section>
 
       <section id="ablauf" className="section">
-        <p className="eyebrow gold">Ablauf</p>
+        <p className="eyebrow">Ablauf</p>
         <h2>In vier Schritten zum fertigen Auftrag</h2>
         <div className="grid steps">
           {steps.map(([num, title, desc]) => (
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       <section className="section gallery">
-        <p className="eyebrow gold">Echte Projekte</p>
+        <p className="eyebrow">Echte Projekte</p>
         <h2>Vorher & Nachher</h2>
         <p className="lead">Einblicke in echte Entrümpelungsarbeiten aus unserem Alltag.</p>
         <div className="grid beforeAfter">
@@ -138,7 +138,7 @@ export default function Home() {
       </section>
 
       <section className="section reviews">
-        <p className="eyebrow gold">Bewertungen</p>
+        <p className="eyebrow">Bewertungen</p>
         <h2>Das sagen unsere Kunden</h2>
         <div className="reviewBox">
           <div className="stars">★★★★★</div>
@@ -149,7 +149,7 @@ export default function Home() {
 
       <section id="kontakt" className="section contact">
         <div>
-          <p className="eyebrow gold">Kontakt</p>
+          <p className="eyebrow">Kontakt</p>
           <h2>Jetzt kostenlos anfragen</h2>
           <p>Wir sind Montag bis Sonntag rund um die Uhr erreichbar.</p>
           <div className="contactList">
@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        <Image src="/images/logo.png" alt="Navi Umzug" width={240} height={80} />
+        <Image src="/images/logo.png" alt="Navi Umzug" width={260} height={70} />
         <div>
           <strong>Navi Umzug und Entrümpelungsservice X ASF Renovierung</strong>
           <br />Inhaber: Asif Asif
