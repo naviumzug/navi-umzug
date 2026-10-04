@@ -60,14 +60,14 @@ export default function Home() {
         />
         <div className="overlay" />
         <div className="heroContent">
-          <p className="eyebrow">Hamburg & Umgebung · 24 Stunden erreichbar</p>
+          <p className="eyebrow">Willkommen bei Navi Umzug und Entrümpelungsservice X ASF Renovierung</p>
           <h1>
             Umzug & Entrümpelung
             <br />
             <span>zuverlässig aus einer Hand.</span>
           </h1>
           <p>
-            Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage und Transporte – transparent,
+            Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage, Transporte und Renovierungsarbeiten – transparent,
             sorgfältig und stressfrei.
           </p>
           <div className="actions">
@@ -102,7 +102,7 @@ export default function Home() {
           <p className="eyebrow gold">Über uns</p>
           <h2>Ihr zuverlässiges Team in Hamburg</h2>
           <p>
-            Navi Umzug steht für Zuverlässigkeit, Transparenz und sorgfältige Arbeit. Unser Team begleitet Sie
+            Navi Umzug und Entrümpelungsservice X ASF Renovierung steht für Zuverlässigkeit, Transparenz und sorgfältige Arbeit. Unser Team begleitet Sie
             von der Planung bis zur Übergabe – zuverlässig und fair.
           </p>
         </div>
@@ -173,7 +173,7 @@ export default function Home() {
       <footer className="footer">
         <Image src="/images/logo.png" alt="Navi Umzug" width={240} height={80} />
         <div>
-          <strong>Navi Umzug</strong>
+          <strong>Navi Umzug und Entrümpelungsservice X ASF Renovierung</strong>
           <br />Inhaber: Asif Asif
           <br />Karl-Rüther-Stieg 7 · 21035 Hamburg
         </div>
