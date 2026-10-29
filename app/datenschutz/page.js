@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Datenschutz | Navi Umzug und Entrümpelungsservice x ASF Renovierung',
-  description: 'Datenschutzerklärung nach DSGVO für Navi Umzug und Entrümpelungsservice x ASF Renovierung - Umzugsunternehmen in Hamburg',
+  title: 'Datenschutz | Navi Umzug und Entrümpelungsservice',
+  description: 'Datenschutzerklärung nach DSGVO für Navi Umzug und Entrümpelungsservice - Umzugsunternehmen in Hamburg',
 };
 
 export default function DatenschutzPage() {
@@ -10,13 +10,13 @@ export default function DatenschutzPage() {
       
       <p><strong>Stand: August 2024</strong></p>
       
-      <p>Wir, Navi Umzug und Entrümpelungsservice x ASF Renovierung, nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre Daten verarbeiten und welche Rechte Sie haben.</p>
+      <p>Wir, Navi Umzug und Entrümpelungsservice, nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre Daten verarbeiten und welche Rechte Ihnen zustehen.</p>
 
       <section style={{marginTop: '2rem'}}>
         <h2>1. Verantwortlicher</h2>
         <p>Verantwortlicher für die Datenverarbeitung ist:</p>
         <p style={{marginLeft: '1rem', borderLeft: '4px solid #007bff', paddingLeft: '1rem'}}>
-          <strong>Navi Umzug und Entrümpelungsservice x ASF Renovierung</strong><br/>
+          <strong>Navi Umzug und Entrümpelungsservice</strong><br/>
           Inhaber: Asif Asif<br/>
           Karl-Rüther-Stieg 7<br/>
           21035 Hamburg<br/>
@@ -37,7 +37,7 @@ export default function DatenschutzPage() {
       <section style={{marginTop: '2rem'}}>
         <h2>3. Kontaktformular</h2>
         <h3>3.1 Beschreibung und Umfang der Datenverarbeitung</h3>
-        <p>Auf unserer Website ist ein Kontaktformular vorhanden, welches für die elektronische Kontaktaufnahme genutzt werden kann. Nimmt ein Nutzer diese Möglichkeit wahr, so werden die in dem Formular eingegebenen Daten an uns übermittelt.</p>
+        <p>Auf unserer Website ist ein Kontaktformular vorhanden, welches für die elektronische Kontaktaufnahme genutzt werden kann. Nimmt ein Nutzer diese Möglichkeit wahr, so werden die in dem Formular eingegebenen Daten verarbeitet.</p>
       </section>
 
       <section style={{marginTop: '2rem'}}>

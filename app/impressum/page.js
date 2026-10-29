@@ -6,12 +6,12 @@ export default function Impressum() {
       <h1>Impressum</h1>
 
       <p>
-        Willkommen bei Navi Umzug und Entrümpelungsservice x ASF Renovierung – Ihrem zuverlässigen Partner für Umzug, Entrümpelung &amp; Servicearbeiten in Hamburg. Hier finden Sie alle wichtigen rechtlichen Informationen zu unserem Unternehmen.
+        Willkommen bei Navi Umzug und Entrümpelungsservice – Ihrem zuverlässigen Partner für Umzug, Entrümpelung &amp; Servicearbeiten in Hamburg. Hier finden Sie alle wichtigen Informationen zu unserem Unternehmen, unseren Dienstleistungen und Ihrem Kontakt zu uns.
       </p>
 
       <h2>Angaben gemäß § 5 TMG</h2>
       <address>
-        Navi Umzug und Entrümpelungsservice x ASF Renovierung<br />
+        Navi Umzug und Entrümpelungsservice<br />
         Karl-Rüther-Stieg 7<br />
         21035 Hamburg<br />
         Deutschland

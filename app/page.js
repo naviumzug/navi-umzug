@@ -11,8 +11,7 @@ const services = [
   ['Entrümpelungen', 'Wohnung, Keller, Dachboden oder Büro – fachgerecht und besenrein.'],
   ['Haushaltsauflösungen', 'Komplettlösungen inklusive Räumung und fachgerechter Entsorgung.'],
   ['Möbelmontage', 'Demontage und Montage von Möbeln aller Art.'],
-  ['Transport & Abholung', 'Zuverlässiger Transport von Möbeln und Gegenständen.'],
-  ['Renovierung', 'Renovierungsarbeiten nach Absprache und passend zu Ihrem Auftrag.']
+  ['Transport & Abholung', 'Zuverlässiger Transport von Möbeln und Gegenständen.']
 ];
 
 const steps = [
@@ -32,7 +31,7 @@ function Header() {
   return (
     <header className="header">
       <a href="#start" className="brand">
-        <Image src="/images/logo.png" alt="Navi Umzug und Entrümpelungsservice X ASF Renovierung" width={320} height={85} priority />
+        <Image src="/images/logo.png" alt="Navi Umzug und Entrümpelungsservice" width={320} height={85} priority />
       </a>
       <nav>
         <a href="#leistungen">Leistungen</a>
@@ -60,14 +59,12 @@ export default function Home() {
         />
         <div className="overlay" />
         <div className="heroContent">
-          <p className="eyebrow">Willkommen bei Navi Umzug und Entrümpelungsservice X ASF Renovierung</p>
+          <p className="eyebrow">Willkommen bei Navi Umzug und Entrümpelungsservice</p>
           <h1>
             Navi Umzug und Entrümpelungsservice
-            <br />
-            <span>X ASF Renovierung – alles aus einer Hand.</span>
           </h1>
           <p>
-            Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage, Transporte und Renovierungsarbeiten – transparent,
+            Umzüge, Entrümpelungen, Haushaltsauflösungen, Möbelmontage, Transporte und Servicearbeiten – transparent,
             sorgfältig und stressfrei.
           </p>
           <div className="actions">
@@ -102,7 +99,7 @@ export default function Home() {
           <p className="eyebrow gold">Über uns</p>
           <h2>Ihr zuverlässiges Team in Hamburg</h2>
           <p>
-            Navi Umzug und Entrümpelungsservice X ASF Renovierung steht für Zuverlässigkeit, Transparenz und sorgfältige Arbeit. Unser Team begleitet Sie
+            Navi Umzug und Entrümpelungsservice steht für Zuverlässigkeit, Transparenz und sorgfältige Arbeit. Unser Team begleitet Sie
             von der Planung bis zur Übergabe – zuverlässig und fair.
           </p>
         </div>
@@ -173,7 +170,7 @@ export default function Home() {
       <footer className="footer">
         <Image src="/images/logo.png" alt="Navi Umzug" width={260} height={70} />
         <div>
-          <strong>Navi Umzug und Entrümpelungsservice X ASF Renovierung</strong>
+          <strong>Navi Umzug und Entrümpelungsservice</strong>
           <br />Inhaber: Asif Asif
           <br />Karl-Rüther-Stieg 7 · 21035 Hamburg
         </div>
