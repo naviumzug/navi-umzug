@@ -449,6 +449,63 @@ h3 {
   transform: translateY(-2px) scale(1.05);
 }
 
+[class*="trustoo"],
+#trustoo-chatbot-widget,
+#trustoo-chatbot-container {
+  z-index: 999 !important;
+}
+
+[class*="trustoo"] .trustoo-chatbot-launcher,
+.trustoo-chatbot-launcher,
+[class*="trustoo"] button,
+[class*="trustoo"] input,
+[class*="trustoo"] textarea,
+[class*="trustoo"] .chatbot-launcher {
+  font-family: 'Segoe UI', Arial, sans-serif !important;
+}
+
+[class*="trustoo"] .trustoo-chatbot-launcher,
+.trustoo-chatbot-launcher,
+[class*="trustoo"] .chatbot-launcher {
+  background: linear-gradient(135deg, #c7892d 0%, #d89e41 100%) !important;
+  border: 0 !important;
+  box-shadow: 0 18px 42px rgba(199, 137, 45, 0.32) !important;
+  width: 62px !important;
+  height: 62px !important;
+  border-radius: 50% !important;
+}
+
+[class*="trustoo"] .trustoo-chatbot-launcher:hover,
+.trustoo-chatbot-launcher:hover {
+  transform: translateY(-2px) scale(1.02) !important;
+}
+
+[class*="trustoo"] .trustoo-chatbot-window,
+.trustoo-chatbot-window,
+[class*="trustoo"] .chatbot-window,
+[class*="trustoo"] .trustoo-chatbot-modal,
+.trustoo-chatbot-modal {
+  border-radius: 24px !important;
+  box-shadow: 0 24px 52px rgba(24, 23, 20, 0.17) !important;
+  border: 1px solid rgba(199, 137, 45, 0.18) !important;
+}
+
+[class*="trustoo"] .trustoo-chatbot-header,
+.trustoo-chatbot-header,
+[class*="trustoo"] .chatbot-header {
+  background: linear-gradient(135deg, #fbe9c8 0%, #f2d699 100%) !important;
+  color: #1d1d1b !important;
+}
+
+[class*="trustoo"] .trustoo-chatbot-send-button,
+.trustoo-chatbot-send-button,
+[class*="trustoo"] button[type="submit"],
+[class*="trustoo"] button {
+  background: linear-gradient(135deg, #c7892d 0%, #d89e41 100%) !important;
+  color: #fff !important;
+  border: 0 !important;
+}
+
 @media (max-width: 900px) {
   .header nav, .header > .btn { display: none; }
   .header { height: 76px; }
@@ -461,4 +518,13 @@ h3 {
   .split { gap: 40px; }
   .trust { gap: 12px; flex-direction: column; }
   .footer { padding: 50px 24px; }
+
+  [class*="trustoo"] .trustoo-chatbot-launcher,
+  .trustoo-chatbot-launcher,
+  [class*="trustoo"] .chatbot-launcher {
+    width: 56px !important;
+    height: 56px !important;
+    right: 16px !important;
+    bottom: 16px !important;
+  }
 }
